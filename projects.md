@@ -13,12 +13,13 @@ Most things I have done can be found at my [Github](https://github.com/CCHolmgre
 ## Showcase
 
 ### Restaurant list
+![](/images/ss+2015-10-25+at+02.07.36.jpg)
 [Restaurant list](http://django.christofferholmgren.se/) is a page to find and explore restaurants. It's difficult to find new ones, tiresome to search for them, and which ones have you visited? These are the problems that Restaurant List tries to alleviate.
 
 Languages: **Python**, **JavaScript**, other techniques: **Django**, **jQuery**.
 
 ### PHPForms
-![](http://puu.sh/hwgxm/3331394ca1.png)
+![](/images/ss+2015-04-30+at+03.41.48.png)
 [PHPForms](https://github.com/CCHolmgren/PHPForms) is a library for creating and handling forms using nothing but PHP 5.4+.
 The library tries to be feature complete with Laravel-form-builder, a library for PHP forms that has a dependency to Laravel, while at the same time not depend on it itself.
 I also wanted some features that are inspired from Django, such as the formatting of forms using ```to_p```, ```to_ul```, ```to_table``` functions. It has a ```asDivs``` method that allows you to format your form as divs, but you may also format it any way you please with a little less terse API.
@@ -34,16 +35,16 @@ Languages: **PHP**, other techniques: **composer**
 # Projects TOC
 * [Music Comparer](#music-comparer)
 * [Kubus](#kubus)
+* [Quiz-a-tron](#quiz-a-tron) 
 * [Ruby on Rails and AngularJS project](#ruby-on-rails-and-angularjs-project)
 * [Forum/bookmark site](#forumbookmark-site)
-* [Quiz-a-tron](#quiz-a-tron) 
 * [1DV449](#dv449)  
     1. [Laboration 1 and 2](#laboration-1-and-laboration-2-in-1dv449)
 
 * * *
 
 ### Music Comparer
-![](http://puu.sh/hw8YH/b269aab478.png)
+![](/images/ss+2015-04-30+at+12.32.27.png)
 [Music Comparer](http://node.christofferholmgren.se/) is a page that gathers information from Last.FM and Spotify and compares artists with eachother. There was also an added requirement of it being offline-first, so Music Comparer caches searches to enable comparisons whilst offline.   
 The task that we were given was to develop an application that uses at least two different API's, and also uses OAuth in some part of the application.  
 Because my application doesn't rely on the OAuth part at all I used the Last.FM login API to prevent using the application without signing in. And as you can see, you will be redirected to the base url (```http://node.christofferholmgren.se/```) if you try to access the ```/application``` url without signing in. This will most likely get changed when I have time.  
@@ -53,10 +54,17 @@ Code can be found [here](https://github.com/CCHolmgren/Music-comparer).
 Languages: **Javascript**, other techniques: **NodeJS**, **express**, **redis**  
 
 ### Kubus
-![](http://puu.sh/hB1PS/0d7af250a2.jpg)
+![](/images/ss+2015-05-04+at+02.29.46.jpg)
 [Kubus](http://www2.kau.se/jorrbomm/) is a project developed in a team. Kubus is a cube builder application intended to be used on iPads and other mobile units, but can also be used on your computer without any problem. It uses ThreeJS and jQuery with a PHP backend.
 This project involved all parts of a larger project. Meetings with the customer, desigining the application, risks, testing and so on. In the end we delivered an application that is focused on math education for school classes in the ages 7-12 years.
 Languages: **Javascript**, **PHP**, other techniques: **ThreeJS**, **jQuery**, **SCRUM**, **Teamwork**, **Responsive**
+
+### Quiz-a-tron
+![](/images/ss+2015-04-30+at+12.42.24.png)
+[Quiz-a-tron](http://www.christofferholmgren.se/quiz-a-tron/) is a quiz-making/-taking page.  
+The backend runs PHP 5.4 and uses PostgreSQL as the database.
+Code can be found [here](https://github.com/CCHolmgren/Quiz-a-tron).
+Languages: **PHP**, other techniques: **PostgreSQL**, **Bootstrap**
 
 ### Ruby on Rails and AngularJS project
 [Ruby on Rails and AngularJS project](https://github.com/CCHolmgren/ch222kv_1dv450_kod). Ruby on Rails on the backend that provides the API. AngularJS to handle the frontend with everything that is involved in that. A PostgreSQL was used to develop it, but because the peer reviewer couldn't get PostgreSQL setup, I switched it out for SQLite instead. This meant breaking the search functionality, but it was a small price to pay.
@@ -65,13 +73,6 @@ Languages: **Ruby**, **Javascript**, other techniques: **AngularJS**, **Ruby on 
 ### Forum/bookmark site
 [Flask and SQLAlchemy Python project](https://github.com/CCHolmgren/individuellt_mjukvaruprojekt). I looked at my bookmarks and saw that it isn't particularly easy to share bookmarks, and this service was born. The idea is that you savce your links in collections and then you can share these collections with anybody that you want easily. The project also includes a forum. Uses Python and Flask for the webservice and SQLAlchemy as the ORM. Markdown is used in the forum and in the collections to provide styling and such without security problems.  
 Languages: **Python**, other techniques: **Flask**, **SQLAlchemy**
-
-### Quiz-a-tron
-![](http://puu.sh/hw9jo/a263d10ed3.png)
-[Quiz-a-tron](http://www.christofferholmgren.se/quiz-a-tron/) is a quiz-making/-taking page.  
-The backend runs PHP 5.4 and uses PostgreSQL as the database.
-Code can be found [here](https://github.com/CCHolmgren/Quiz-a-tron).
-Languages: **PHP**, other techniques: **PostgreSQL**, **Bootstrap**
 
 ## 1DV449
 [Webbteknik II](http://coursepress.lnu.se/kurs/webbteknik-ii/)  
