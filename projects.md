@@ -12,11 +12,11 @@ Most things I have done can be found at my [Github](https://github.com/CCHolmgre
 
 ## Showcase
 
-### Restaurant list
+### Reexguide (was Restaurant List)
 ![](/images/ss+2015-10-25+at+02.07.36.jpg)
-[Restaurant list](http://django.christofferholmgren.se/) is a page to find and explore restaurants. It's difficult to find new ones, tiresome to search for them, and which ones have you visited? These are the problems that Restaurant List tries to alleviate.
+[Reexguide](https://www.reexguide.com/) is a page to find and explore restaurants. It's difficult to find new ones, tiresome to search for them, and which ones have you visited? Those are the problems that Reexguide tries to alleviate.
 
-Languages: **Python**, **JavaScript**, other techniques: **Django**, **jQuery**.
+Languages: **Python**, **JavaScript**, other techniques: **Django**, **jQuery**, **Foundation 6**.
 
 ### PHPForms
 ![](/images/ss+2015-04-30+at+03.41.48.png)
